@@ -19,7 +19,7 @@ export default function Header() {
     }
 
   return (
-    <div className="App" >
+    <div className="header-menu" >
         <Menu secondary className="App" >
             <Menu.Item name="inicio" active={activeItem === "inicio"} onClick={ handleItemClick}  />
             <Menu.Item name="series" active={activeItem === "series"}  onClick={ handleItemClick} />
