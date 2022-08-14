@@ -14,8 +14,6 @@ function App() {
   return (
     <>
       <div >
-        <header >
-          
           <p>Marvel.</p>
           <BrowserRouter>
           <Header/>
@@ -26,18 +24,8 @@ function App() {
               <Route path="comics" element={<Comics />} />
               <Route path="*" element={<Error404 />} />
             </Routes>
-            <nav>
-              <Link to="/comics">Comics</Link>
-              <Link to="/series">Series</Link>
-            </nav>
-
           </BrowserRouter>
-
-
-        </header>
-
       </div>
-
     </>
   );
 }
