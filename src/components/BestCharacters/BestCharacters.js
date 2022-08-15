@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, Button, Grid, Image } from "semantic-ui-react";
+import { Header, Button, Grid } from "semantic-ui-react";
 import Container from "../Container";
 import MarvelImage from "../../img/marvel.png";
 import './BestCharacters.scss'
