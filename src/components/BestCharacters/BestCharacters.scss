@@ -1,23 +1,23 @@
 .best-characters     {
-    padding: 35px 0;
+    padding: 0px 0;
     .vertically{
         display: flex;
         align-items: center;
     }
     h1.header {
-        font-size: 40px;
+        font-size: 35px;
         color: #ffffff;
     }
     h3.header {
         margin-top: 25px;;
-        font-size: 28px;
+        font-size: 22px;
         color: #ffffff;
     }
 
     button.button{
         background-color: #00a3da;
         margin: 2.5rem 0 0;
-        font-size: 20px;
+        font-size: 17px;
         padding: 20px;
         line-height: 1.5rem;
         color: #ffffff;
@@ -31,14 +31,8 @@
     }
 
     .column.image-container{
-        width: 5%;
-        height: 5%;
- 
-        .image{
-            image-rendering: optimizeQuality;
-            height: 50%;
-            display: flex !important;
-        }
+        width: 100%;
+        height: auto;
     }
     
     

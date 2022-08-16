@@ -6,7 +6,7 @@ import ListLastEvents from '../components/ListLastEvents/ListLastEvents'
 
 export default function Home() {
   return (
-    <div>
+    <div padding="0">
       <BestCharacters/>
       <ListLastEvents/>
       <Insider />

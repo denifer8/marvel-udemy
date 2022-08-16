@@ -14,13 +14,11 @@ export default function ListComics({
   listComics,
   renderComics,
   setRenderComics,
-}) 
-{
-
-  const loadMoreComics = ()=>{
+}) {
+  const loadMoreComics = () => {
     const numberComics = renderComics;
     setRenderComics(numberComics + 5);
-  }
+  };
   const { loading, result } = listComics;
   if (loading || !result)
     return (
@@ -63,7 +61,7 @@ export default function ListComics({
       ))}
       <div className="container-button">
         <Button color="red" onClick={() => loadMoreComics()}>
-          <Icon name="plus">Cargar más Comics</Icon>
+          <Icon name="plus"></Icon> Cargar más Comics
         </Button>
       </div>
     </Card.Group>
