@@ -17,7 +17,7 @@ export default function BestCharacters() {
             <Button>Ver todos los personajes</Button>
           </Grid.Column>
           <Grid.Column className="image-container">
-            <img src={MarvelImage} alt="Marvel App" />
+            <img src={MarvelImage} alt="Marvel App" height="300%"/>
           </Grid.Column>
         </Grid>
       </div>

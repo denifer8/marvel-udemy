@@ -15,7 +15,6 @@ function App() {
   return (
     <>
       <div >
-          <p>Marvel.</p>
           <BrowserRouter>
           <Header/>
             <Routes>
@@ -26,7 +25,6 @@ function App() {
               <Route path="*" element={<Error404 />} />
             </Routes>
           </BrowserRouter>
-          <ListLastEvents/>
       </div>
     </>
   );

@@ -1,18 +1,20 @@
 .best-characters     {
-    padding: 70px 0;
+    height: 50%;
+    padding: 35px 0;
     .vertically{
         display: flex;
         align-items: center;
     }
     h1.header {
-        font-size: 50px;
+        font-size: 40px;
         color: #ffffff;
     }
     h3.header {
-        margin-top: 25px;;
+        margin-top: 5px;;
         font-size: 28px;
         color: #ffffff;
     }
+
     button.button{
         background-color: #00a3da;
         margin: 2.5rem 0 0;
@@ -30,8 +32,17 @@
     }
 
     .column.image-container{
-        width: 100%;
-        height: auto;
+        width: 50%;
+        height: 50%;
+        .image{
+            height: 50%;
+            display: flex !important;
+        }
     }
     
+}
+.image-container{
+    width: 50%;
+    height: 50%;
+
 }
